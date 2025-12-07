@@ -8,8 +8,21 @@
     *   **David (Team Leader)**：资深工程师，负责项目架构、代码审查和合并主分支。
     *   **Chen (Developer 1)**：后端开发人员。
     *   **Fiona (Developer 2)**：后端开发人员。
-*   **远程仓库**：托管在 GitHub 上，`main` 分支受保护。
+*   **远程仓库**：托管在 GitHub 上，仓库地址：`https://github.com/westonZhang/oocl-cargo-tracking`，`main` 分支受保护。
 *   **当前状态**：项目已初始化，正在开发核心功能。
+
+#### 项目克隆
+
+如果你的本地还没有项目代码，需要先从远程仓库克隆项目：
+
+```bash
+# 克隆项目到本地
+git clone https://github.com/westonZhang/oocl-cargo-tracking
+# 进入项目目录
+cd oocl-cargo-tracking
+```
+
+克隆完成后，你就可以开始进行开发工作了。
 
 > **注意**：这是一个教学案例，用于演示 Git 工作流和团队协作开发。请不要在当前项目中实际执行这些操作，因为该项目将留作后续学员练习使用。
 
