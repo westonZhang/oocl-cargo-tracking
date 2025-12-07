@@ -16,15 +16,15 @@
 如果你的本地还没有项目代码，需要先从远程仓库克隆项目：
 
 ```bash
-# 克隆项目到本地
-git clone https://github.com/westonZhang/oocl-cargo-tracking
+# 方式1：使用 HTTPS 地址（推荐，无需配置 SSH 密钥）
+git clone https://github.com/westonZhang/oocl-cargo-tracking.git
+# 方式2：使用 SSH 地址（需要配置 SSH 密钥）
+# git clone git@github.com:westonZhang/oocl-cargo-tracking.git
 # 进入项目目录
 cd oocl-cargo-tracking
 ```
 
 克隆完成后，你就可以开始进行开发工作了。
-
-> **注意**：这是一个教学案例，用于演示 Git 工作流和团队协作开发。请不要在当前项目中实际执行这些操作，因为该项目将留作后续学员练习使用。
 
 #### 第一幕：新功能开发 - 为集装箱添加“危险品”标识
 
